@@ -84,13 +84,13 @@ class _PosterAndTitile extends StatelessWidget {
             children: [
               Text(
                 'Títol peli',
-                style: textTheme.headline5,
+                style: textTheme.headlineSmall,
                 overflow: TextOverflow.ellipsis,
                 maxLines: 2,
               ),
               Text(
                 'Títol original',
-                style: textTheme.subtitle1,
+                style: textTheme.titleMedium,
                 overflow: TextOverflow.ellipsis,
                 maxLines: 2,
               ),
@@ -98,7 +98,7 @@ class _PosterAndTitile extends StatelessWidget {
                 children: [
                   const Icon(Icons.star_outline, size: 15, color: Colors.grey),
                   const SizedBox(width: 5),
-                  Text('Nota mitjana', style: textTheme.caption),
+                  Text('Nota mitjana', style: textTheme.bodySmall),
                 ],
               )
             ],
@@ -117,7 +117,7 @@ class _Overview extends StatelessWidget {
       child: Text(
         'Labore eiusmod ad reprehenderit irure eu sunt ex minim. Lorem fugiat Lorem proident duis ea cupidatat. Commodo duis culpa reprehenderit ad elit. Velit duis officia reprehenderit ullamco sint id anim officia est. Enim mollit nisi et exercitation dolore commodo. Cillum mollit laborum non nulla cillum non do reprehenderit Lorem deserunt ex eu sunt do.',
         textAlign: TextAlign.justify,
-        style: Theme.of(context).textTheme.subtitle1,
+        style: Theme.of(context).textTheme.titleMedium,
       ),
     );
   }
